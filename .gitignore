@@ -46,6 +46,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+Assets/Arena/*
 Assets/NatureStarterKit2/*
 Library/*
 Temp/*
+obj/*

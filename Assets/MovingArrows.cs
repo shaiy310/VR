@@ -42,9 +42,9 @@ public class MovingArrows : MonoBehaviour
 {	
 	List<DynamicArrow> arrow_templates;
 	Color white = new Color(1, 1, 1);
-	Color green = new Color(72.0f / 255.0f, 249.0f / 255.0f, 78.0f / 255.0f, 1.0f);
-	Color pink = new Color(245.0f / 255.0f, 69.0f / 255.0f, 192.0f / 255.0f, 1.0f);
-	Color blue = new Color(39.0f / 255.0f, 166.0f / 255.0f, 250.0f / 255.0f, 1.0f);
+	Color green = new Color(72.0f / 255.0f, 249.0f / 255.0f, 78.0f / 255.0f);
+	Color pink = new Color(245.0f / 255.0f, 69.0f / 255.0f, 192.0f / 255.0f);
+	Color blue = new Color(39.0f / 255.0f, 166.0f / 255.0f, 250.0f / 255.0f);
 	
 	// TBD - how to use
 	int speed;
@@ -64,7 +64,7 @@ public class MovingArrows : MonoBehaviour
 			new DynamicArrow("ArrowRight", Vector3.up)
 		};
 		dynamic_arrows = new List<DynamicArrow>();
-		speed = 100;
+		speed = 150;
 		counter = 0;
     }
 
