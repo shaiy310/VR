@@ -31,7 +31,7 @@ public class Globals : MonoBehaviour
 			// "topLeft", // blue
 			
 			"middleRight", // blue
-			"middle", // pink
+			// "middle", // pink
 			"middleLeft", // green
 			
 			// "bottomRight", // green
@@ -46,9 +46,10 @@ public class Globals : MonoBehaviour
 		
 		score = 0;
 		GameObject.Find("middle").GetComponent<Renderer>().material.color = new Color(
-			39.0f / 255.0f, 
-			166.0f / 255.0f, 
-			250.0f / 255.0f);
+			72.0f / 255.0f, 
+			249.0f / 255.0f, 
+			78.0f / 255.0f
+		);
     }
 	
 	public List<string> Board {

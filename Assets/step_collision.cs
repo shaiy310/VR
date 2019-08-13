@@ -26,7 +26,6 @@ public class step_collision : MonoBehaviour
 					} else {
 						GameObject.Find(s).GetComponent<Renderer>().material.color = pink;
 					}
-					// self.GetComponent<Renderer>().enabled = false;
 					GameObject.Find("Camera").GetComponent<Globals>().flags[s] = Time.time;
 				}
 			}

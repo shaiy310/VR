@@ -63,6 +63,7 @@ public class MovingArrows : MonoBehaviour
 			new DynamicArrow("ArrowUp", Vector3.left),
 			new DynamicArrow("ArrowRight", Vector3.up)
 		};
+
 		dynamic_arrows = new List<DynamicArrow>();
 		speed = 150;
 		counter = 0;
